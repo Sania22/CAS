@@ -1,6 +1,6 @@
 ﻿@using CAS.Models
 @{
-    ViewBag.Title = "ViewAllFeeds";
+    //ViewBag.Title = "ViewAllFeeds";
     Layout = "~/Views/Shared/_PublicLayout.cshtml";
 }
 
@@ -52,7 +52,6 @@
                             <td>@i.Ad_URL</td>
                             <td>@i.Bus_Pro_ID</td>
                             <td>@i.Pub_Pro_ID</td>
-
                             <td>@Html.ActionLink("Delete", "DeleteAd", new { id = i.Id })</td>
                         </tr>
                     }
